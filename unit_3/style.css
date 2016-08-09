@@ -1,0 +1,49 @@
+body {
+	font-family: Helvetica;
+	background-color: #FF8679;
+	background-image: url("../images/Homepage_Header.png"); 
+	background-repeat: no-repeat;
+	background-position: center top;
+	 width: 100%;
+	 height: auto;	
+}
+div.slogan {
+	font-style: italic;
+}
+h1 {color: #401C18; text-align: center;	
+}
+h2, h3 {color: #60FFAA; text-align: center;	
+}
+p {color: #FFF; text-align: center;	
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+	color:#FFF;
+}
+table#t01 {
+	font-family: Kunstler Script;
+	font-size: 30px;
+	padding-top: 140px;
+	width: 100%;	
+}
+div.indiethbackground {
+	background-color: #FFFF60;
+}
+tr#tr01 {
+	background-color: #401C18;
+}
+th#th01{
+	color: #fff;
+	text-align: center;
+}
+table#t02 {
+	width: 100%;
+	font-family: Helvetica;
+}
+td#td02{
+	width: 300px;
+}
+a {
+	color: #401C18;
+}
