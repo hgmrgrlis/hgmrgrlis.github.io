@@ -1,0 +1,109 @@
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Slab|Lobster|Original+Surfer|Raleway:400,800';
+body {
+	font-family: 'Josefin Slab', serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+	background-color: #FFDAD6;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+div.wrapper {
+	background-color: #FFE2B8;
+	border: 1 px black solid;
+	padding: 20px;
+}
+header {
+	background-color: #FFED74;
+	border: 1 px black solid;
+	padding: 20px;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1 px black solid;
+	padding: 20px;
+}
+aside {
+	background-color: #FFC675;
+	border: 1 px black solid;
+	padding: 20px;
+}
+article {
+	background-color: #E89C6C;
+	border: 1 px black solid;
+	padding: 20px;
+}
+footer {
+	background-color: #FF957E;
+	border: 1 px black solid;
+	padding: 20px;
+	clear: both;
+}
+section#portsubone {
+	background-color: #FFE2B8;
+	border: 1 px black solid;
+	padding: 20px;
+}
+aside.slideshow {
+	background-color: #FFC675;
+	border: 1 px black solid;
+	padding: 20px;
+}
+article.portphotography {
+	background-color: #E89C6C;
+	border: 1 px black solid;
+	padding: 20px;
+}
+article.portgraphicdesign {
+	background-color: #E89C6C;
+	border: 1 px black solid;
+	padding: 20px;
+	float: center;
+}
+article.portvideoproduction {
+	background-color: #E89C6C;
+	border: 1 px black solid;
+	padding: 20px;
+}
+div.slogan {
+	font-style: italic;
+}
+h1 {color: #CCAEAB; text-align: center;	
+}
+h2, h3 {color: #7F4A45; text-align: center;	
+	font-family: 'Indie Flower', cursive;
+}
+p {color: #7F4A45; text-align: center;	
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+	color: #7F4A45;
+}
+table#t01 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	width: 100%;	
+}
+div.indiethbackground {
+	background-color: #7F6D6B;
+}
+tr#tr01 {
+	background-color: #FF9589;
+}
+th#th01{
+	color: #fff;
+	text-align: center;
+}
+table#t02 {
+	width: 100%;
+	font-family: 'Josefin Slab', serif;
+}
+td#td02{
+	width: 300px;
+}
+a {
+	color: #7F6D6B;
+}

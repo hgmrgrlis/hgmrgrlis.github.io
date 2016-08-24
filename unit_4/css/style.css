@@ -36,10 +36,10 @@ div.indiethbackground {
 	background-color: #7F6D6B;
 }
 tr#tr01 {
-	background-color: #FF9589;
+	background-color: none;
 }
 th#th01{
-	color: #fff;
+	color: #FF9589;
 	text-align: center;
 }
 table#t02 {
