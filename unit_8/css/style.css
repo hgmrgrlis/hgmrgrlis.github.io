@@ -1,0 +1,277 @@
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Slab|Lobster|Original+Surfer|Raleway:400,800';
+body {
+	font-family: 'Josefin Slab', serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	background-color: #000;
+}
+
+
+div.wrapper {
+	background-color: none;
+	width: 100%
+
+}
+
+div.pagecontainer {
+	background-color: none;
+	padding: 20px;
+	width: 100%;
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+header {
+	background-color: #none;
+}
+
+nav {
+	background-color: #605B5A;
+	font-family: 'Indie Flower', cursive;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 20px;
+}
+
+#indiespiritlink {
+	background-color: #6FFF40;
+	color: #605B5A;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+nav a:hover {
+	background-color: #FF005B;
+}
+
+header.slideshow {
+	background-color: none;
+}
+
+section.sectionbackground { 
+	background-color: #fff;
+
+}
+
+#two_column {
+	background-color: none;
+	padding: 20px
+}
+
+#left {
+	background-color: none;
+	border: 1 px black solid;
+	padding: 20px;
+	float: left;
+	width: 52%;
+}
+
+#right {
+	color: #000;
+	background-color: #6FFF40;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 30%
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; 
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+article {
+	background-color: none;
+	padding: 20px;
+}
+
+section.portsubone {
+	background-color: #fff;
+	padding: 20px;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; 
+}
+
+article.portphotography {
+	background-color: #FF005B;
+	padding: 10px;
+	margin: 1em;
+	float: left;
+	display: inline-block;
+	width: 30%;
+}
+article.portgraphicdesign {
+	background-color: #FF005B;
+	padding: 10px;
+	margin: 1em;
+	float: left;
+	display: inline-block;
+	width: 30%;
+}
+article.portvideoproduction {
+	background-color: #FF005B;
+	padding: 10px;
+	margin: 1em;
+	float: left;
+	display: inline-block;
+	width: 30%;
+}
+
+article.callout {
+	color: #fff;
+	font-style: bold;
+}
+
+div.slogan {
+	font-style: italic;
+}
+h1 {color: #CCAEAB; text-align: center;	
+}
+h2, h3 {color: #FF005B; text-align: center;	
+	font-family: 'Indie Flower', cursive;
+}
+p {color: #000; text-align: center;	
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+	color: #000;
+}
+
+/*
+table#t01 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	width: 100%;	
+}
+div.indiethbackground {
+	background-color: #7F6D6B;
+}
+tr#tr01 {
+	background-color: #FF9589;
+}
+th#th01{
+	color: #fff;
+	text-align: center;
+} */
+
+table#t02 {
+	width: 100%;
+	font-family: 'Josefin Slab', serif;
+}
+td#td02{
+	width: 300px;
+}
+a {
+	color: #FF957E;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	background-color: #605B5A;
+	border: 1px black solid;
+	padding: 1em 0;
+	clear: both;
+}
+
+@media only screen and (max-width: 800px) {
+	nav, aside#right, aside#left {
+		float: none;
+		width: 100%;
+	}
+	nav a {
+		margin: .75em 0em;
+	}
+
+	section {
+		font-size: 1.4em;
+		line-height: 1.8em;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	
+	h1, nav, section, aside, footer, article, div, #two_column, section.clearfix.portsubone, article.portsubone, article.portgraphicdesign, article.portvideoproduction {
+		color: white;
+		display: block;
+		text-align: center;
+		width: 100%;
+		float: none;
+	}
+
+	section, aside, article, div, section.sectionbackground {
+		color: white;
+		background-color: black;
+	}
+	nav a {
+		margin: 0 1em 1em;
+	}
+	
+	header.slideshow, div.slogan {
+		display: none;
+	}
+
+	#indiespiritlink {
+		display: block;
+	}
+
+	article.callout {
+		float: none;
+		width: 100%;
+	}
+
+	#left, #right {
+		width: 100%;
+		float:none;
+		padding: 0px;
+	}
+
+	#two_column {
+		padding: 0px;
+	}
+
+	p {
+		color: white;
+	}
+
+	div.pagecontainer, article.portsubone, section.clearfix.portsubone, article.portphotography.callout, article.portgraphicdesign, article.portvideoproduction{
+		padding: 0px;
+		margin: 0px;
+		border: none;
+	}
+
+}
